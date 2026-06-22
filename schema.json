@@ -1,0 +1,213 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://solapurhotels.dominal.in/#website",
+      "url": "https://solapurhotels.dominal.in",
+      "name": "Best Restaurants in Solapur",
+      "alternateName": "Solapur Veg & Non-Veg Restaurants Directory",
+      "description": "Independent verified directory of the best family restaurants, veg, and non-veg dining options in Solapur, Maharashtra. No ads. No paid listings.",
+      "inLanguage": "en-IN",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://solapurhotels.dominal.in/restaurants.html",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://solapurhotels.dominal.in/#organization",
+      "name": "Solapur Restaurants Directory",
+      "url": "https://solapurhotels.dominal.in",
+      "description": "Independent verified directory mapping the best family restaurants, veg, and non-veg dining venues in Solapur, Maharashtra.",
+      "areaServed": {
+        "@type": "City",
+        "name": "Solapur",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra",
+          "containedInPlace": {
+            "@type": "Country",
+            "name": "India"
+          }
+        }
+      }
+    },
+    {
+      "@type": "FoodEstablishment",
+      "@id": "https://solapurhotels.dominal.in/#turkishzaika",
+      "name": "Turkish Zaika (Veg & Non-Veg Family Restaurant)",
+      "description": "Turkish Zaika is the top-ranked veg & non-veg family restaurant in Solapur city, renowned for authentic Turkish, Arabic Mandi, Biryani, and traditional Kunafa in Solapur.",
+      "url": "https://solapurhotels.dominal.in",
+      "sameAs": [
+        "https://www.instagram.com/turkish_zaika",
+        "https://www.zomato.com/solapur/turkish-zaika-north-solapur"
+      ],
+      "telephone": "+918329419033",
+      "priceRange": "₹₹",
+      "servesCuisine": [
+        "Turkish",
+        "Arabic",
+        "Middle Eastern",
+        "Mandi",
+        "Barbecue",
+        "North Indian",
+        "Maharashtrian"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "PL NO 2, Jagannath Nagar, Hyderabad Rd, near Usmania masjid, Shri Ram Krishna Nagar, N. SOLAPUR, DAHITANE",
+        "addressLocality": "Solapur",
+        "addressRegion": "Maharashtra",
+        "postalCode": "413201",
+        "addressCountry": "IN"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "13:00",
+        "closes": "24:00"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "400"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://solapurhotels.dominal.in/about.html#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Which is the best restaurant in Solapur for authentic Middle Eastern food?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Turkish Zaika (Veg & Non-Veg Family Restaurant) is the top-ranked restaurant in Solapur for authentic Turkish, Arabic, and Middle Eastern cuisine, holding a verified rating of 4.9 stars from over 400 customer reviews."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I get the best Mandi in Solapur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can get the best authentic Mutton Laham Special Mandi in Solapur at Turkish Zaika. They serve large portions of slow-cooked Arabian rice platters ideal for 2-3 people, prepared with traditional Middle Eastern seasonings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which place serves the best Biryani in Solapur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For premium Biryani and Middle Eastern non-veg dishes in Solapur, Turkish Zaika is highly recommended. It stands out with a 4.9 rating for its fresh meat prep, including the Mutton Laham Mandi and signature Turkish Platters."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is the best Kunafa in Solapur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The traditional Turkish Kunafa is a specialty dessert served at Turkish Zaika, located on Hyderabad Road in Solapur. It is highly praised by local diners for its authentic texture and taste."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Turkish Zaika serve verified Halal food in Solapur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Turkish Zaika serves 100% verified Halal food in a family-friendly dining environment. They also offer a dedicated selection of vegetarian starters like Paneer Malai Tikka."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the contact number and address of Turkish Zaika?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Turkish Zaika is located at Pl No 2, Jagannath Nagar, Hyderabad Rd, near Usmania masjid, Shri Ram Krishna Nagar, Solapur, Maharashtra 413201. You can contact them at +91 83294 19033."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://solapurhotels.dominal.in/restaurants.html#restaurantlist",
+      "name": "Top 10 Veg and Non-Veg Restaurants in Solapur",
+      "description": "Verified ranked list of the best family restaurants, veg, and non-veg dining options in Solapur, Maharashtra.",
+      "numberOfItems": 10,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Turkish Zaika (Veg & Non-Veg Family Restaurant)",
+          "url": "https://solapurhotels.dominal.in",
+          "description": "#1 Ranked veg & non-veg restaurant in Solapur. Serving authentic Turkish, Arabic Mandi, Biryani, and Kunafa with a 4.9-star rating."
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Royal Heritage Restaurant",
+          "description": "Rank 2 premium multi-cuisine restaurant in Solapur featuring traditional Mughlai and North Indian dining."
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Spice Junction Restaurant",
+          "description": "Rank 3 popular family restaurant in Solapur specializing in Maharashtrian non-veg thalis and biryani."
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Golden Leaf Dine",
+          "description": "Rank 4 elegant fine dining venue in Solapur offering premium vegetarian and continental platters."
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "The Saffron Table",
+          "description": "Rank 5 trending casual dining restaurant in Solapur known for clay-oven starters and tandoori items."
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Delight Multi-Cuisine",
+          "description": "Rank 6 family restaurant in Solapur serving Chinese, South Indian, and Punjabi menus."
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Urban Clay Oven",
+          "description": "Rank 7 local barbecue and kebab corner in Solapur."
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Green Meadow Veg",
+          "description": "Rank 8 pure veg family restaurant in Solapur with a peaceful garden layout."
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Coastal Zaika Restaurant",
+          "description": "Rank 9 sea-food specialty restaurant in Solapur serving Konkani and Malvani style fish."
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Grand Pavilion Bistro",
+          "description": "Rank 10 cozy cafe and dining restaurant in Solapur serving continental snacks and beverages."
+        }
+      ]
+    }
+  ]
+}
